@@ -1,0 +1,124 @@
+
+<html>
+<head>
+    <title>Réservation d'hôtel</title>
+    <style>
+        /* Styles pour le formulaire de réservation */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="date"],
+select,
+input[type="radio"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="radio"] + label {
+  margin-right: 20px;
+}
+
+/* Styles pour la table d'images */
+table {
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: none;
+}
+
+tr,
+td {
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+td img {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+td p {
+  margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+    <h1>Réservation d'hôtel</h1>
+    <form>
+        
+        <label for="checkin">Date d'arrivée :</label>
+        <input type="date" id="checkin" name="checkin"><br><br>
+        
+        <label for="checkout">Date de départ :</label>
+        <input type="date" id="checkout" name="checkout"><br><br>
+        
+        <label for="adults">Adultes :</label>
+        <select id="adults" name="adults">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+        
+        <label for="children">Enfants :</label>
+        <select id="children" name="children">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+        
+        <label for="room-type">Type de chambre :</label>
+        <input type="radio" id="room-type" name="room-type" value="standard">
+        <label for="standard">Standard</label><br>
+        <input type="radio" id="room-type" name="room-type" value="deluxe">
+        <label for="deluxe">Deluxe</label><br>
+        <input type="radio" id="room-type" name="room-type" value="suite">
+        <label for="suite">Suite</label><br><br>
+        <input type="radio" id="room-type" name="room-type" value="royal">
+        <label for="royal">royal</label><br><br>
+        <table border="1">
+            <tr>
+             <td>
+                <p>Chambre standard </p>
+              <img src="https://static-otelico.com/cache/regina_berck/hotel_regina-berck_sur_mer-chambre_standard_8.jpg" >
+             </td>
+             <td>
+                <p>chambre de luxe</p>
+              <img src="https://asset.montecarlosbm.com/styles/hero_image_desktop/s3/media/orphea/hp_chambre_deluxe_354_2021_001.jpg.jpeg?h=35b3dde6&itok=_LX5gfgE" >
+             </a></td>
+            </tr>
+            <tr>
+              <td>
+                <p>Suite </p>
+                <img src="https://www.hotelsbarriere.com/content/dam/hotels/courchevel/site-national/chambres/appartement-les-neiges-sn-854x597.jpg/jcr%3Acontent/renditions/cq5dam.web.1280.1280.jpeg" >
+              </a></td>
+              <td>
+                <p>royal </p>
+                <img src="https://www.hotelbalzac.fr/media/1412662/hotel-balzac-royal-suite.jpg?mode=crop-up&width=940"
+            </tr>
+              
+        
+
+        
+    </form>
+    <form action="endp.html">
+        <button type="submit" class="signupbtn">envoyer</button>
+    </form>
+</body>
+</html>
