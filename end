@@ -1,0 +1,40 @@
+<head>
+    <style>
+          background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+} 
+
+
+
+h2 {
+    color: #9c6363;
+  font-size: 36px;
+  margin-top: 20px;
+ 
+}
+
+form {
+  margin: 20px;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #2f2f2f;
+  color: #fff;
+  font-size: 16px;
+ 
+
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <h2> Votre reservation est prise en consideration  </h2>
+    <h2>Merci pour votre confiance </h2>
+    <form action="welcome.html">
+        <button type="submit" class="signupbtn">Back</button>
+    </form>
+
+</body>
