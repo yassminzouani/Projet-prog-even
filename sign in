@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> login </title>
+        <style>
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  color: gray;
+}
+input[type="email"],
+input[type="password"] {
+  font-style: italic;
+  text-align: center;
+  color :black;
+}
+
+        </style>
+    </head>
+    <h1>Connecter vous </h1>
+    <form action="reserver.html" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" > <br>
+        <label  for="password">password</label>
+        <input type="password" name="password" id="password">
+          <input type="submit" value="Envoyer">
+    </form>
+
+</body>
+</html>
